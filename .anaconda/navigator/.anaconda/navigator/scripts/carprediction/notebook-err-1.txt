@@ -1,0 +1,18 @@
+[I 01:57:12.400 NotebookApp] The port 8888 is already in use, trying another port.
+[I 01:57:12.404 NotebookApp] Serving notebooks from local directory: C:\Users\TEMP
+[I 01:57:12.404 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 01:57:12.404 NotebookApp] http://localhost:8889/?token=aac931aac6a0d102f1a5daf9aaafeb05c30f80a454924c07
+[I 01:57:12.404 NotebookApp]  or http://127.0.0.1:8889/?token=aac931aac6a0d102f1a5daf9aaafeb05c30f80a454924c07
+[I 01:57:12.404 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 01:57:12.537 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/TEMP/AppData/Roaming/jupyter/runtime/nbserver-9080-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=aac931aac6a0d102f1a5daf9aaafeb05c30f80a454924c07
+     or http://127.0.0.1:8889/?token=aac931aac6a0d102f1a5daf9aaafeb05c30f80a454924c07
+[I 01:59:01.003 NotebookApp] Creating new notebook in 
+[W 01:59:04.131 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210206015710 (::1) 31.980000ms referer=http://localhost:8889/notebooks/Untitled.ipynb?kernel_name=python3
+[I 01:59:04.299 NotebookApp] Kernel started: 5d2923a9-ae14-4501-88e2-bbed4bd014e9, name: python3
+[I 01:59:12.607 NotebookApp] Saving file at /Untitled.ipynb
+[I 01:59:12.851 NotebookApp] Starting buffering for 5d2923a9-ae14-4501-88e2-bbed4bd014e9:86968691e07240e8856eba55aeb421be

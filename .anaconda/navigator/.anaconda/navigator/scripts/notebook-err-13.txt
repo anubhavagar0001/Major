@@ -1,0 +1,107 @@
+[I 14:24:42.625 NotebookApp] JupyterLab extension loaded from C:\Users\TEMP\anaconda3\lib\site-packages\jupyterlab
+[I 14:24:42.625 NotebookApp] JupyterLab application directory is C:\Users\TEMP\anaconda3\share\jupyter\lab
+[I 14:24:42.637 NotebookApp] Serving notebooks from local directory: C:\Users\TEMP
+[I 14:24:42.637 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 14:24:42.638 NotebookApp] http://localhost:8888/?token=c12e84ecdf8630972d05818998093bad1bc355e0a7ae7bf4
+[I 14:24:42.638 NotebookApp]  or http://127.0.0.1:8888/?token=c12e84ecdf8630972d05818998093bad1bc355e0a7ae7bf4
+[I 14:24:42.639 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:24:42.878 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/TEMP/AppData/Roaming/jupyter/runtime/nbserver-12660-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=c12e84ecdf8630972d05818998093bad1bc355e0a7ae7bf4
+     or http://127.0.0.1:8888/?token=c12e84ecdf8630972d05818998093bad1bc355e0a7ae7bf4
+[I 14:24:59.019 NotebookApp] Creating new notebook in 
+[I 14:25:09.410 NotebookApp] Kernel started: ee331048-ab77-45c0-8fb1-16909c834f6f, name: python3
+[I 14:27:09.601 NotebookApp] Saving file at /Untitled7.ipynb
+[I 14:55:09.596 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:01:09.562 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:03:09.572 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:11:09.616 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:17:09.619 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:21:08.703 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:23:08.685 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:25:09.577 NotebookApp] Saving file at /Untitled7.ipynb
+[I 15:27:09.578 NotebookApp] Saving file at /Untitled7.ipynb
+[I 16:30:32.335 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:3b439315939843b3bca3b73d80a71eae
+[I 18:29:46.458 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 20:47:35.280 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 23:34:56.525 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:36:55.802 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:38:56.488 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:40:56.483 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:42:55.811 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:48:56.497 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:50:55.802 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:52:55.807 NotebookApp] Saving file at /Untitled7.ipynb
+[I 23:54:55.813 NotebookApp] Saving file at /Untitled7.ipynb
+[I 00:00:56.495 NotebookApp] Saving file at /Untitled7.ipynb
+[I 00:02:56.506 NotebookApp] Saving file at /Untitled7.ipynb
+[I 00:05:00.551 NotebookApp] Saving file at /Untitled7.ipynb
+[I 00:10:56.509 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:35:28.192 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 14:51:11.686 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 14:57:32.266 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 18:38:31.716 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 23:39:18.001 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 00:13:04.394 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 02:10:15.668 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 12:22:04.250 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 15:27:55.109 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 16:26:50.169 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 17:03:01.999 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 17:05:30.778 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 17:27:01.112 NotebookApp] Saving file at /Untitled7.ipynb
+[I 17:28:59.355 NotebookApp] Saving file at /Untitled7.ipynb
+[I 17:31:00.111 NotebookApp] Saving file at /Untitled7.ipynb
+[I 17:32:59.415 NotebookApp] Saving file at /Untitled7.ipynb
+[I 17:34:16.096 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 17:38:04.634 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 17:38:11.950 NotebookApp] Saving file at /Untitled7.ipynb
+[I 17:52:59.582 NotebookApp] Saving file at /Untitled7.ipynb
+[I 17:55:00.106 NotebookApp] Saving file at /Untitled7.ipynb
+[W 17:56:51.406 NotebookApp] delete /flight_rf.pkl
+[I 20:29:03.020 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 20:39:23.292 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 21:10:59.416 NotebookApp] Saving file at /Untitled7.ipynb
+[I 21:13:00.102 NotebookApp] Saving file at /Untitled7.ipynb
+[I 21:15:00.121 NotebookApp] Saving file at /Untitled7.ipynb
+[I 21:26:59.358 NotebookApp] Saving file at /Untitled7.ipynb
+[I 21:28:59.384 NotebookApp] Saving file at /Untitled7.ipynb
+[I 22:32:58.873 NotebookApp] Saving file at /Untitled7.ipynb
+[I 22:34:58.799 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:22:58.188 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:24:58.078 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:28:58.088 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:30:58.090 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:34:58.121 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:36:58.094 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:44:58.076 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:46:00.924 NotebookApp] Creating new notebook in 
+[I 02:46:10.279 NotebookApp] Kernel started: 5d0a803a-da8d-4995-b41f-b945bec163f1, name: python3
+[I 02:46:58.815 NotebookApp] Saving file at /Untitled7.ipynb
+[I 02:48:10.763 NotebookApp] Saving file at /Untitled8.ipynb
+[I 02:54:09.929 NotebookApp] Saving file at /Untitled8.ipynb
+[I 02:56:09.939 NotebookApp] Saving file at /Untitled8.ipynb
+[I 02:58:09.921 NotebookApp] Saving file at /Untitled8.ipynb
+[I 03:00:09.911 NotebookApp] Saving file at /Untitled8.ipynb
+[I 03:02:09.937 NotebookApp] Saving file at /Untitled8.ipynb
+[I 03:04:10.742 NotebookApp] Saving file at /Untitled8.ipynb
+[I 03:30:58.784 NotebookApp] Saving file at /flight_fare.ipynb
+[I 04:03:04.080 NotebookApp] Starting buffering for 5d0a803a-da8d-4995-b41f-b945bec163f1:55b62fa725ec4b81b86493652f149728
+[I 04:06:58.131 NotebookApp] Saving file at /flight_fare.ipynb
+[I 04:08:58.075 NotebookApp] Saving file at /flight_fare.ipynb
+[I 04:18:10.265 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 10:32:56.821 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 11:55:15.288 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 12:04:49.158 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 13:55:58.842 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 15:40:05.303 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 17:23:50.636 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 17:57:26.816 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 21:40:30.434 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 21:49:18.008 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 02:22:02.649 NotebookApp] Starting buffering for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[I 02:23:40.603 NotebookApp] Restoring connection for ee331048-ab77-45c0-8fb1-16909c834f6f:f3817a040c1f4f03b1419308a6a7f36c
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

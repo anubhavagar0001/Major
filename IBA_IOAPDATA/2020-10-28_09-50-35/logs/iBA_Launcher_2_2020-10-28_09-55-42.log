@@ -1,0 +1,132 @@
+
+[ERROR] : 2020-10-28 09:55:42 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_1_2020-10-28_09-50-41.log with Server with HTTP Status code :403
+[INFO] : 2020-10-28 09:56:05 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:56:30 : Camera list in check_camera_connection: ["EasyCamera"]
+[INFO] : 2020-10-28 09:56:30 : FINAL COMMAND : "C:\Users\TEMP\AppData\Local\Temp\_MEI59~1\static\ffmpeg.exe" -y -hide_banner -f dshow -rtbufsize 1024M -i video="@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" -pix_fmt yuv420p -r 10 -s 320x240 -b:v 800k -maxrate 800k -minrate 400k -metadata mac=54:e1:ad:7c:c8:80 -metadata created_time=2020:10:28_09:56:30 -metadata candidateId=3404_56_1 -metadata filename=video5 -preset veryfast -crf 22 -t 5 "C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video5.webm"
+[INFO] : 2020-10-28 09:56:36 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:56:37 : ffmpeg output for C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video5.webm ::: Input #0, dshow, from 'video=@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global':
+  Duration: N/A, start: 1489.409000, bitrate: N/A
+    Stream #0:0: Video: mjpeg (Baseline) (MJPG / 0x47504A4D), yuvj422p(pc, bt470bg/unknown/unknown), 1280x720, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+Codec AVOption preset (Configuration preset) specified for output file #0 (C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video5.webm) has not been used for any stream. The most likely reason is either wrong type (e.g. a video option with no video streams) or that it is a private option of some encoder which was not actually used for any stream.
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[swscaler @ 069bc480] deprecated pixel format used, make sure you did set range correctly
+[libvpx-vp9 @ 06914a40] v1.8.1-133-g802569640
+Output #0, webm, to 'C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video5.webm':
+  Metadata:
+    mac             : 54:e1:ad:7c:c8:80
+    created_time    : 2020:10:28_09:56:30
+    candidateId     : 3404_56_1
+    filename        : video5
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: vp9 (libvpx-vp9), yuv420p, 320x240, q=-1--1, 800 kb/s, 10 fps, 1k tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libvpx-vp9
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=    6 fps=0.0 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=9 speed=   0x    frame=   12 fps= 12 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=19 speed=   0x    frame=   17 fps= 11 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=29 speed=   0x    frame=   21 fps= 10 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=38 speed=   0x    frame=   26 fps= 10 q=0.0 size=       1kB time=00:00:00.10 bitrate=  60.0kbits/s dup=0 drop=47 speed=0.0397x    frame=   32 fps= 10 q=0.0 size=       1kB time=00:00:00.70 bitrate=   8.7kbits/s dup=0 drop=59 speed=0.229x    frame=   37 fps= 10 q=0.0 size=       1kB time=00:00:01.20 bitrate=   5.0kbits/s dup=0 drop=69 speed=0.337x    frame=   42 fps= 10 q=0.0 size=       1kB time=00:00:01.70 bitrate=   3.6kbits/s dup=0 drop=79 speed=0.418x    frame=   46 fps= 10 q=0.0 size=       1kB time=00:00:02.10 bitrate=   2.9kbits/s dup=0 drop=87 speed=0.458x    frame=   50 fps=8.1 q=0.0 Lsize=      68kB time=00:00:04.90 bitrate= 113.1kbits/s dup=0 drop=97 speed=0.794x    
+video:67kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.672486%
+
+[INFO] : 2020-10-28 09:56:37 : Filesize of C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video5.webm ::: 67 KB
+[INFO] : 2020-10-28 09:56:37 : https://g81.tcsion.com:443//IBAFileUpload/IBAFiles.do?action=RemoteProctoredData&mockId=56&attemptIds=1&candMasterId=3404&orgId=31162&createdBy=13598527&proctoredFileType=video&candidateImageId=14099790_1016&faceComparisonRequired=1&assessmentIndex=_23&startTimeStamp=2020:10:28_09:56:30&endTimeStamp=2020:10:28_09:56:37&fileName=video5.webm
+[INFO] : 2020-10-28 09:56:38 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video5.webm ::: uploaded in 0:00:00.625000
+[INFO] : 2020-10-28 09:56:38 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video5.webm deleted sucessfully.
+[INFO] : 2020-10-28 09:57:06 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:57:37 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:57:37 : Camera list in check_camera_connection: ["EasyCamera"]
+[INFO] : 2020-10-28 09:57:37 : FINAL COMMAND : "C:\Users\TEMP\AppData\Local\Temp\_MEI59~1\static\ffmpeg.exe" -y -hide_banner -f dshow -rtbufsize 1024M -i video="@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" -pix_fmt yuv420p -r 10 -s 320x240 -b:v 800k -maxrate 800k -minrate 400k -metadata mac=54:e1:ad:7c:c8:80 -metadata created_time=2020:10:28_09:57:37 -metadata candidateId=3404_56_1 -metadata filename=video6 -preset veryfast -crf 22 -t 5 "C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video6.webm"
+[INFO] : 2020-10-28 09:57:44 : ffmpeg output for C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video6.webm ::: Input #0, dshow, from 'video=@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global':
+  Duration: N/A, start: 1556.670000, bitrate: N/A
+    Stream #0:0: Video: mjpeg (Baseline) (MJPG / 0x47504A4D), yuvj422p(pc, bt470bg/unknown/unknown), 1280x720, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+Codec AVOption preset (Configuration preset) specified for output file #0 (C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video6.webm) has not been used for any stream. The most likely reason is either wrong type (e.g. a video option with no video streams) or that it is a private option of some encoder which was not actually used for any stream.
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[swscaler @ 06b14c40] deprecated pixel format used, make sure you did set range correctly
+[libvpx-vp9 @ 06a75240] v1.8.1-133-g802569640
+Output #0, webm, to 'C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video6.webm':
+  Metadata:
+    mac             : 54:e1:ad:7c:c8:80
+    created_time    : 2020:10:28_09:57:37
+    candidateId     : 3404_56_1
+    filename        : video6
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: vp9 (libvpx-vp9), yuv420p, 320x240, q=-1--1, 800 kb/s, 10 fps, 1k tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libvpx-vp9
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=    6 fps=0.0 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=9 speed=   0x    frame=   12 fps= 12 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=19 speed=   0x    frame=   16 fps= 11 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=28 speed=   0x    frame=   21 fps= 10 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=38 speed=   0x    frame=   26 fps= 10 q=0.0 size=       1kB time=00:00:00.10 bitrate=  60.0kbits/s dup=0 drop=48 speed=0.04x    frame=   32 fps= 10 q=0.0 size=       1kB time=00:00:00.70 bitrate=   8.7kbits/s dup=0 drop=59 speed=0.229x    frame=   35 fps=9.8 q=0.0 size=       1kB time=00:00:01.00 bitrate=   6.1kbits/s dup=0 drop=66 speed=0.281x    frame=   42 fps= 10 q=0.0 size=       1kB time=00:00:01.70 bitrate=   3.6kbits/s dup=0 drop=79 speed=0.418x    frame=   45 fps=9.6 q=0.0 size=       1kB time=00:00:02.00 bitrate=   3.0kbits/s dup=0 drop=86 speed=0.428x    frame=   50 fps=7.7 q=0.0 Lsize=      76kB time=00:00:04.90 bitrate= 126.3kbits/s dup=0 drop=97 speed=0.751x    
+video:74kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.495062%
+
+[INFO] : 2020-10-28 09:57:45 : Filesize of C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video6.webm ::: 75 KB
+[INFO] : 2020-10-28 09:57:45 : https://g81.tcsion.com:443//IBAFileUpload/IBAFiles.do?action=RemoteProctoredData&mockId=56&attemptIds=1&candMasterId=3404&orgId=31162&createdBy=13598527&proctoredFileType=video&candidateImageId=14099790_1016&faceComparisonRequired=1&assessmentIndex=_23&startTimeStamp=2020:10:28_09:57:37&endTimeStamp=2020:10:28_09:57:44&fileName=video6.webm
+[INFO] : 2020-10-28 09:57:45 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video6.webm ::: uploaded in 0:00:00.593000
+[INFO] : 2020-10-28 09:57:45 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video6.webm deleted sucessfully.
+[INFO] : 2020-10-28 09:58:07 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:58:38 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:58:45 : Camera list in check_camera_connection: ["EasyCamera"]
+[INFO] : 2020-10-28 09:58:45 : FINAL COMMAND : "C:\Users\TEMP\AppData\Local\Temp\_MEI59~1\static\ffmpeg.exe" -y -hide_banner -f dshow -rtbufsize 1024M -i video="@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" -pix_fmt yuv420p -r 10 -s 320x240 -b:v 800k -maxrate 800k -minrate 400k -metadata mac=54:e1:ad:7c:c8:80 -metadata created_time=2020:10:28_09:58:45 -metadata candidateId=3404_56_1 -metadata filename=video7 -preset veryfast -crf 22 -t 5 "C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video7.webm"
+[INFO] : 2020-10-28 09:58:52 : ffmpeg output for C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video7.webm ::: Input #0, dshow, from 'video=@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global':
+  Duration: N/A, start: 1624.102000, bitrate: N/A
+    Stream #0:0: Video: mjpeg (Baseline) (MJPG / 0x47504A4D), yuvj422p(pc, bt470bg/unknown/unknown), 1280x720, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+Codec AVOption preset (Configuration preset) specified for output file #0 (C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video7.webm) has not been used for any stream. The most likely reason is either wrong type (e.g. a video option with no video streams) or that it is a private option of some encoder which was not actually used for any stream.
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[swscaler @ 069dcac0] deprecated pixel format used, make sure you did set range correctly
+[libvpx-vp9 @ 06934a40] v1.8.1-133-g802569640
+Output #0, webm, to 'C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video7.webm':
+  Metadata:
+    mac             : 54:e1:ad:7c:c8:80
+    created_time    : 2020:10:28_09:58:45
+    candidateId     : 3404_56_1
+    filename        : video7
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: vp9 (libvpx-vp9), yuv420p, 320x240, q=-1--1, 800 kb/s, 10 fps, 1k tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libvpx-vp9
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=    6 fps=0.0 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=9 speed=   0x    frame=   12 fps= 12 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=19 speed=   0x    frame=   16 fps= 11 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=28 speed=   0x    frame=   21 fps= 10 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=38 speed=   0x    frame=   27 fps= 11 q=0.0 size=       1kB time=00:00:00.20 bitrate=  30.2kbits/s dup=0 drop=49 speed=0.0796x    frame=   32 fps= 11 q=0.0 size=       1kB time=00:00:00.70 bitrate=   8.7kbits/s dup=0 drop=59 speed=0.232x    frame=   36 fps= 10 q=0.0 size=       1kB time=00:00:01.10 bitrate=   5.5kbits/s dup=0 drop=67 speed=0.312x    frame=   42 fps= 10 q=0.0 size=       1kB time=00:00:01.70 bitrate=   3.6kbits/s dup=0 drop=79 speed=0.418x    frame=   45 fps=9.6 q=0.0 size=       1kB time=00:00:02.00 bitrate=   3.0kbits/s dup=0 drop=86 speed=0.429x    frame=   50 fps=7.9 q=0.0 Lsize=      69kB time=00:00:04.90 bitrate= 115.1kbits/s dup=0 drop=97 speed=0.777x    
+video:68kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.643077%
+
+[INFO] : 2020-10-28 09:58:52 : Filesize of C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video7.webm ::: 68 KB
+[INFO] : 2020-10-28 09:58:52 : https://g81.tcsion.com:443//IBAFileUpload/IBAFiles.do?action=RemoteProctoredData&mockId=56&attemptIds=1&candMasterId=3404&orgId=31162&createdBy=13598527&proctoredFileType=video&candidateImageId=14099790_1016&faceComparisonRequired=1&assessmentIndex=_23&startTimeStamp=2020:10:28_09:58:45&endTimeStamp=2020:10:28_09:58:52&fileName=video7.webm
+[INFO] : 2020-10-28 09:58:52 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video7.webm ::: uploaded in 0:00:00.598000
+[INFO] : 2020-10-28 09:58:52 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video7.webm deleted sucessfully.
+[INFO] : 2020-10-28 09:59:08 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:59:39 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 09:59:52 : Camera list in check_camera_connection: ["EasyCamera"]
+[INFO] : 2020-10-28 09:59:52 : FINAL COMMAND : "C:\Users\TEMP\AppData\Local\Temp\_MEI59~1\static\ffmpeg.exe" -y -hide_banner -f dshow -rtbufsize 1024M -i video="@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" -pix_fmt yuv420p -r 10 -s 320x240 -b:v 800k -maxrate 800k -minrate 400k -metadata mac=54:e1:ad:7c:c8:80 -metadata created_time=2020:10:28_09:59:52 -metadata candidateId=3404_56_1 -metadata filename=video8 -preset veryfast -crf 22 -t 5 "C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video8.webm"
+[INFO] : 2020-10-28 09:59:59 : ffmpeg output for C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video8.webm ::: Input #0, dshow, from 'video=@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global':
+  Duration: N/A, start: 1691.259000, bitrate: N/A
+    Stream #0:0: Video: mjpeg (Baseline) (MJPG / 0x47504A4D), yuvj422p(pc, bt470bg/unknown/unknown), 1280x720, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+Codec AVOption preset (Configuration preset) specified for output file #0 (C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video8.webm) has not been used for any stream. The most likely reason is either wrong type (e.g. a video option with no video streams) or that it is a private option of some encoder which was not actually used for any stream.
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[swscaler @ 0654ea80] deprecated pixel format used, make sure you did set range correctly
+[libvpx-vp9 @ 064a4a40] v1.8.1-133-g802569640
+Output #0, webm, to 'C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video8.webm':
+  Metadata:
+    mac             : 54:e1:ad:7c:c8:80
+    created_time    : 2020:10:28_09:59:52
+    candidateId     : 3404_56_1
+    filename        : video8
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: vp9 (libvpx-vp9), yuv420p, 320x240, q=-1--1, 800 kb/s, 10 fps, 1k tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libvpx-vp9
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=    6 fps=0.0 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=9 speed=   0x    frame=   11 fps= 11 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=18 speed=   0x    frame=   16 fps= 11 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=28 speed=   0x    frame=   21 fps= 10 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=38 speed=   0x    frame=   26 fps= 10 q=0.0 size=       1kB time=00:00:00.10 bitrate=  60.0kbits/s dup=0 drop=48 speed=0.0402x    frame=   31 fps= 10 q=0.0 size=       1kB time=00:00:00.60 bitrate=  10.1kbits/s dup=0 drop=58 speed=0.199x    frame=   35 fps=9.9 q=0.0 size=       1kB time=00:00:01.00 bitrate=   6.1kbits/s dup=0 drop=65 speed=0.284x    frame=   42 fps= 10 q=0.0 size=       1kB time=00:00:01.70 bitrate=   3.6kbits/s dup=0 drop=79 speed=0.419x    frame=   45 fps=9.6 q=0.0 size=       1kB time=00:00:02.00 bitrate=   3.0kbits/s dup=0 drop=86 speed=0.426x    frame=   50 fps=7.4 q=0.0 Lsize=      79kB time=00:00:04.90 bitrate= 131.6kbits/s dup=0 drop=97 speed=0.721x    
+video:78kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.434089%
+
+[INFO] : 2020-10-28 09:59:59 : Filesize of C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video8.webm ::: 78 KB
+[INFO] : 2020-10-28 09:59:59 : https://g81.tcsion.com:443//IBAFileUpload/IBAFiles.do?action=RemoteProctoredData&mockId=56&attemptIds=1&candMasterId=3404&orgId=31162&createdBy=13598527&proctoredFileType=video&candidateImageId=14099790_1016&faceComparisonRequired=1&assessmentIndex=_23&startTimeStamp=2020:10:28_09:59:52&endTimeStamp=2020:10:28_09:59:59&fileName=video8.webm
+[INFO] : 2020-10-28 10:00:00 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video8.webm ::: uploaded in 0:00:00.668000
+[INFO] : 2020-10-28 10:00:00 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video8.webm deleted sucessfully.
+[INFO] : 2020-10-28 10:00:09 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 10:00:40 : Hearbeat Response ::: Loaded

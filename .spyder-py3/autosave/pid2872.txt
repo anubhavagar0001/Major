@@ -1,0 +1,1 @@
+{'C:\\Users\\TEMP\\Downloads\\Deployment-flask-master\\Deployment-flask-master\\static\\css\\style.css': 'C:\\Users\\TEMP\\AppData\\Roaming\\SPB_Data\\.spyder-py3\\autosave\\style.css'}

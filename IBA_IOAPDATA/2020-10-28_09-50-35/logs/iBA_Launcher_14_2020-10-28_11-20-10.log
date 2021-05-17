@@ -1,0 +1,61 @@
+
+[ERROR] : 2020-10-28 11:20:07 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_1_2020-10-28_09-50-41.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:07 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_2_2020-10-28_09-55-42.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:07 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_3_2020-10-28_10-00-42.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:08 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_4_2020-10-28_10-05-43.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:08 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_5_2020-10-28_10-10-43.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:08 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_6_2020-10-28_10-15-44.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:09 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_7_2020-10-28_10-20-44.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:09 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_8_2020-10-28_10-25-45.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:09 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_9_2020-10-28_10-55-13.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:09 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_10_2020-10-28_11-00-11.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:10 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_11_2020-10-28_11-05-09.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:10 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_12_2020-10-28_11-10-09.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:10 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_13_2020-10-28_11-15-09.log with Server with HTTP Status code :403
+[INFO] : 2020-10-28 11:20:23 : Hearbeat Response ::: Loaded
+[INFO] : 2020-10-28 11:20:31 : Camera list in check_camera_connection: ["EasyCamera"]
+[INFO] : 2020-10-28 11:20:31 : FINAL COMMAND : "C:\Users\TEMP\AppData\Local\Temp\_MEI59~1\static\ffmpeg.exe" -y -hide_banner -f dshow -rtbufsize 1024M -i video="@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" -pix_fmt yuv420p -r 10 -s 320x240 -b:v 800k -maxrate 800k -minrate 400k -metadata mac=54:e1:ad:7c:c8:80 -metadata created_time=2020:10:28_11:20:31 -metadata candidateId=3404_56_1 -metadata filename=video17 -preset veryfast -crf 22 -t 5 "C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video17.webm"
+[INFO] : 2020-10-28 11:20:38 : ffmpeg output for C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video17.webm ::: Input #0, dshow, from 'video=@device_pnp_\\?\usb#vid_0bda&pid_58ea&mi_00#6&1739f836&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global':
+  Duration: N/A, start: 6530.356000, bitrate: N/A
+    Stream #0:0: Video: mjpeg (Baseline) (MJPG / 0x47504A4D), yuvj422p(pc, bt470bg/unknown/unknown), 1280x720, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+Codec AVOption preset (Configuration preset) specified for output file #0 (C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video17.webm) has not been used for any stream. The most likely reason is either wrong type (e.g. a video option with no video streams) or that it is a private option of some encoder which was not actually used for any stream.
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[swscaler @ 0696b000] deprecated pixel format used, make sure you did set range correctly
+[libvpx-vp9 @ 068c4ac0] v1.8.1-133-g802569640
+Output #0, webm, to 'C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video17.webm':
+  Metadata:
+    mac             : 54:e1:ad:7c:c8:80
+    created_time    : 2020:10:28_11:20:31
+    candidateId     : 3404_56_1
+    filename        : video17
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: vp9 (libvpx-vp9), yuv420p, 320x240, q=-1--1, 800 kb/s, 10 fps, 1k tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libvpx-vp9
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=    6 fps=0.0 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=9 speed=   0x    frame=   12 fps= 12 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=19 speed=   0x    frame=   17 fps= 11 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=29 speed=   0x    frame=   21 fps= 10 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A dup=0 drop=38 speed=   0x    frame=   26 fps= 10 q=0.0 size=       1kB time=00:00:00.10 bitrate=  60.1kbits/s dup=0 drop=48 speed=0.04x    frame=   32 fps= 10 q=0.0 size=       1kB time=00:00:00.70 bitrate=   8.7kbits/s dup=0 drop=59 speed=0.229x    frame=   35 fps=9.6 q=0.0 size=       1kB time=00:00:01.00 bitrate=   6.1kbits/s dup=0 drop=65 speed=0.274x    frame=   43 fps= 10 q=0.0 size=       1kB time=00:00:01.80 bitrate=   3.4kbits/s dup=0 drop=81 speed=0.433x    frame=   45 fps=9.6 q=0.0 size=       1kB time=00:00:02.00 bitrate=   3.0kbits/s dup=0 drop=86 speed=0.428x    frame=   50 fps=7.5 q=0.0 Lsize=      61kB time=00:00:04.90 bitrate= 101.8kbits/s dup=0 drop=97 speed=0.736x    
+video:60kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.847013%
+
+[INFO] : 2020-10-28 11:20:38 : Filesize of C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video17.webm ::: 60 KB
+[INFO] : 2020-10-28 11:20:38 : https://g81.tcsion.com:443//IBAFileUpload/IBAFiles.do?action=RemoteProctoredData&mockId=56&attemptIds=1&candMasterId=3404&orgId=31162&createdBy=13598527&proctoredFileType=video&candidateImageId=14099790_1016&faceComparisonRequired=1&assessmentIndex=_23&startTimeStamp=2020:10:28_11:20:31&endTimeStamp=2020:10:28_11:20:38&fileName=video17.webm
+[INFO] : 2020-10-28 11:20:39 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video17.webm ::: uploaded in 0:00:00.288000
+[INFO] : 2020-10-28 11:20:39 : C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\videos\video17.webm deleted sucessfully.
+[INFO] : 2020-10-28 11:20:53 : Shift+ESC is pressed. Closed the browser
+[INFO] : 2020-10-28 11:20:53 : Show windows task bar
+[INFO] : 2020-10-28 11:20:53 : Assessment closed succesfully
+[ERROR] : 2020-10-28 11:20:53 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_1_2020-10-28_09-50-41.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:53 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_2_2020-10-28_09-55-42.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:54 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_3_2020-10-28_10-00-42.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:54 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_4_2020-10-28_10-05-43.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:54 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_5_2020-10-28_10-10-43.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:54 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_6_2020-10-28_10-15-44.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:55 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_7_2020-10-28_10-20-44.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:55 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_8_2020-10-28_10-25-45.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:55 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_9_2020-10-28_10-55-13.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:55 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_10_2020-10-28_11-00-11.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:56 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_11_2020-10-28_11-05-09.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:56 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_12_2020-10-28_11-10-09.log with Server with HTTP Status code :403
+[ERROR] : 2020-10-28 11:20:56 : Failed to Share C:\Users\TEMP\AppData\Roaming\SPB_Data\IBA_IOAPDATA\2020-10-28_09-50-35\logs\iBA_Launcher_13_2020-10-28_11-15-09.log with Server with HTTP Status code :403
